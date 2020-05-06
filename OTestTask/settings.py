@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'OTestTask.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'postgres',
+        'NAME': 'local',
+        'USER': 'localuser',
         'PASSWORD': 'qwerter',
         'HOST': 'localhost',
-        'PORT': '5433',
+        'PORT': '5432',
     }
 }
 
